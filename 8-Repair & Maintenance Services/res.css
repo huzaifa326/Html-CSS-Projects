@@ -1,0 +1,106 @@
+@media screen and (max-width: 1200px) {
+    .left{
+        width: 60% ;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .left{
+        width: 75% ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav {
+        padding: 15px 0px;
+    }
+
+    .nav-items ul {
+        display: none;
+    }
+
+    .nav-items i {
+        display: block;
+    }
+
+    .container-1-content,
+    .boxs,
+    .container-2,
+    .container-3-content,
+    .boxs-2,
+    .boxs-3,
+    .container-6-content,
+    .contact {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .container-1-text,
+    .container-1-pic,
+    .box,
+    .container-2-text,
+    .container-2-pic,
+    .container-3-pic,
+    .container-3-text,
+    .box-2,
+    .box-3,
+    .contact-form,
+    .map,
+    .location,
+    .phone,
+    .email {
+        width: 100%;
+    }
+
+    .contact::before {
+        width: 1px;
+        min-height: 65%;
+    }
+
+    .contact p {
+        position: relative;
+        z-index: 999;
+    }
+
+    .left {
+        width: 85%;
+    }
+    .f-p{
+        text-align: center;
+    }
+    .boxs {
+        position: static;
+    }
+    .boxs-container{
+        position: relative;
+        top: 50px;
+    }
+    .container-2{
+        margin-top: 90px;
+    }
+    .container-1-text{
+        padding-top: 155px;
+    }
+    .nav-text{
+        width: 85%;
+        padding: 20px 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .top-text {
+        flex-direction: column;
+    }
+
+    .container-1-text{
+        margin-top: 50px;
+    }
+    .container-1-text h2{
+        font-size: 30px;
+        width: 100%;
+        line-height: 35px;
+    }
+}

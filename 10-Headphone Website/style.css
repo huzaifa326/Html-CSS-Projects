@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center {
+    width: 70%;
+}
+
+/* =====================================one-container============================= */
+
+.one-container {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(1.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 41px;
+    margin: 8px 0px;
+    width: 50%;
+}
+
+.one-container button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 5px;
+}
+
+/* =====================================two-container============================= */
+
+.two-container {
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-container h3 {
+    margin-bottom: 13px;
+    font-size: 25px;
+}
+
+/* =====================================three-container============================= */
+
+.three-container {
+    width: 100%;
+    padding: 30px 0px;
+    color: white;
+    background-color: rgb(250, 200, 105);
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.three-container .center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* =====================================four-container============================= */
+
+.four-container {
+    margin: 70px auto;
+}
+
+.four-container h2 {
+    margin-bottom: 23px;
+}
+
+.boxs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.box {
+    width: 32%;
+}
+
+.img {
+    min-height: 150px;
+}
+
+.img p {
+    display: inline-block;
+    padding: 6px 8px;
+    background-color: rgb(250, 200, 105);
+    border-radius: 18px;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.box-section {
+    background-color: rgb(250, 200, 105);
+    padding: 30px 30px;
+}
+
+.box-section p {
+    color: white;
+}
+
+.one {
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url(4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width:992px) {
+    .text-box, .img-box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .text-box {
+        padding: 30px;
+    }
+    .text-box h1 {
+        font-size: 35px;
+    }
+    .img-box h1 {
+        width: 100%;
+    }
+    .footer div{
+        width: 75%;
+        line-height: 25px;
+        text-align: center;
+    }
+}

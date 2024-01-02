@@ -1,0 +1,22 @@
+@media screen and (max-width:992px) {
+    .box {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .box-five,
+    .box-six {
+        width: 100%;
+    }
+    .footer-content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .box {
+        width: 100%;
+    }
+}

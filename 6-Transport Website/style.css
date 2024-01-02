@@ -1,0 +1,589 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =============================Shared Classes=============================== */
+
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Courier Prime', monospace;
+}
+
+p {
+    font-weight: 100;
+    font-size: 0.84rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    padding: 13px 25px;
+    background-color: rgb(255, 81, 38);
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 12px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 60, 11);
+}
+
+.upper-text h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.upper-text h4 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px auto;
+    width: 33%;
+}
+
+/* ========================================================= */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+    background: url(images/header.jpeg) center/cover no-repeat;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 50px;
+    left: 180px;
+}
+
+.header h1 {
+    font-size: 85px;
+    line-height: 80px;
+    margin-bottom: 17px;
+}
+
+.header h4 {
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+/* ========================================================= */
+
+.container-1 {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic-1 {
+    width: 67%;
+    min-height: 450px;
+    background: url(images/1.jpeg) center/cover no-repeat;
+}
+
+/* ------------ */
+
+.container-1-text {
+    width: 38%;
+    padding-left: 20px;
+}
+
+.container-1-text h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.container-1-text h4 {
+    font-size: 19px;
+    font-weight: 200;
+    word-spacing: 5px;
+    margin: 15px 0px;
+    width: 70%;
+}
+
+.container-1-text p {
+    margin-bottom: 19px;
+}
+
+/* ========================================================= */
+
+.container-2 {
+    width: 100%;
+    display: flex;
+}
+
+.pic-2,
+.pic-3,
+.pic-4 {
+    width: 33%;
+    height: 460px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.pic-2 {
+    background: url(images/2.jpeg) center/cover no-repeat;
+}
+
+.pic-3 {
+    background: url(images/3.jpeg) center/cover no-repeat;
+}
+
+.pic-4 {
+    align-items: start;
+    background: url(images/4.jpeg) center/cover no-repeat;
+}
+
+/* ------------- */
+
+.text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding: 40px 20px;
+}
+
+.text h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.pad-1 {
+    padding: 20px 20px;
+}
+
+/* ------------- */
+
+.overly {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+}
+
+.ov-1 {
+    background-color: rgba(192, 151, 226, 0.5);
+}
+
+.ov-2 {
+    background-color: rgba(235, 77, 37, 0.5);
+}
+
+/* ========================================================= */
+
+.container-3 {
+    margin: 70px auto 110px;
+    width: 75%;
+}
+
+.container-3 h4 {
+    width: 45%;
+}
+
+/* --------------- */
+
+.container-3-boxs {
+    margin-top: 70px;
+    display: flex;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 47%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.box-1 .box-icon {
+    margin: 20px 0px 0px;
+}
+
+.box-1 i {
+    font-size: 50px;
+    color: rgb(254, 99, 61);
+}
+
+.box-1 .box-text {
+    width: 85%;
+}
+
+.box-1 h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* ========================================================= */
+
+.container-4 {
+    width: 100%;
+    display: flex;
+}
+
+.pic-5,
+.pic-6,
+.pic-7 {
+    width: 33%;
+    height: 460px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.pic-5 {
+    justify-content: center;
+    background: url(images/5.jpeg) center/cover no-repeat;
+}
+
+.pic-6 {
+    background: url(images/6.jpeg) center/cover no-repeat;
+}
+
+.pic-7 {
+    background: url(images/7.jpeg) center/cover no-repeat;
+}
+
+/* ------------ */
+
+.pic-5-text {
+    position: relative;
+    z-index: 1;
+    padding: 10px 0px 80px;
+}
+
+.pic-6-text,
+.pic-7-text {
+    position: relative;
+    z-index: 1;
+    padding: 10px 0px 80px 30px;
+}
+
+.pic-5-text h2,
+.pic-6-text h2,
+.pic-7-text h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.pic-5 span {
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+}
+
+.pic-6 span,
+.pic-7 span {
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
+}
+
+/* ========================================================= */
+
+.container-5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pic-8 {
+    width: 50%;
+    min-height: 600px;
+    background: url(images/8.jpeg) center/cover no-repeat;
+}
+
+.container-5-text {
+    position: relative;
+    width: 50%;
+    padding: 90px 40px;
+}
+
+.container-5-text .quote {
+    font-size: 90px;
+    color: rgb(255, 81, 38);
+}
+
+.container-5-text p {
+    margin: 70px 0px 20px 0px;
+}
+
+.container-5-text h4 {
+    font-weight: 100;
+    width: 67%;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.overly-3 {
+    width: 85%;
+    height: 80px;
+    position: absolute;
+    inset: 0;
+    top: 190px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overly-3 .angle {
+    font-size: 40px;
+}
+
+/* ========================================================= */
+
+.container-6 {
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.container-6-logos {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+
+.container-6 img {
+    width: 12%;
+    min-height: 60px;
+    object-fit: cover;
+}
+
+#classic{
+    width: 14%;
+}
+
+/* ========================================================= */
+
+.container-7 {
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container-7 h2 {
+    width: 50%;
+    font-size: 29px;
+    font-weight: bolder;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+/* ========================================================= */
+
+.staff-container {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+    min-height: 630px;
+    background: url(images/9.jpeg) center/cover no-repeat;
+}
+
+.staff-content {
+    position: relative;
+    z-index: 1;
+    width: 75%;
+}
+
+/* ------------- */
+
+.staff-text {
+    width: 55%;
+    text-align: center;
+    margin: 0px auto 70px;
+}
+
+.staff-text h2 {
+    font-size: 35px;
+}
+
+.staff-text h4 {
+    font-size: 19px;
+    margin: 15px 0px 18px;
+    letter-spacing: 1px;
+}
+
+/* ------------- */
+
+.staff-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.staff-box {
+    width: 20%;
+    text-align: center;
+}
+
+.staf-p-1,
+.staf-p-2,
+.staf-p-3,
+.staf-p-4 {
+    margin: 0px auto;
+    width: 143px;
+    height: 143px;
+    border-radius: 50%;
+}
+
+.staf-p-1 {
+    background: url(images/staff-1.jpeg) center/cover no-repeat;
+}
+
+.staf-p-2 {
+    background: url(images/staff-2.jpeg) center/cover no-repeat;
+}
+
+.staf-p-3 {
+    background: url(images/staff-3.jpeg) right/cover no-repeat;
+}
+
+.staf-p-4 {
+    background: url(images/staff-4.jpeg) right/cover no-repeat;
+}
+
+.staff-box h4 {
+    margin: 23px 0px 9px;
+    letter-spacing: 1px;
+}
+
+/* ------------- */
+
+.ov-4 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ========================================================= */
+
+.container-8 {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic-9 {
+    width: 65%;
+    height: 450px;
+    background: url(images/10.jpeg) center/cover no-repeat;
+}
+
+/* -------------- */
+
+.container-8-text {
+    width: 35%;
+    padding-left: 20px;
+}
+
+.container-8-text h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.container-8-text h4 {
+    font-size: 17px;
+    font-weight: 200;
+    word-spacing: 5px;
+    margin: 13px 0px;
+    width: 60%;
+    line-height: 23px;
+}
+
+.container-8-text p {
+    margin-bottom: 19px;
+    width: 80%;
+}
+
+/* ========================================================= */
+
+.container-9 {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    padding: 50px 0px 70px;
+}
+
+/* --------------- */
+
+.container-9-boxs {
+    margin: 70px auto;
+    width: 75%;
+    display: flex;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-5 {
+    width: 21%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box-5 i {
+    margin-top: 19px;
+    font-size: 50px;
+    color: rgb(252, 119, 86);
+}
+
+.box-text-1 {
+    width: 75%;
+}
+
+.box-5 h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* ========================================================= */
+
+.footer-content {
+    background-color: rgb(51, 51, 51);
+    padding: 30px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-content p {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.footer-content a {
+    display: inline-block;
+    color: rgb(255, 185, 168);
+}

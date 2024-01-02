@@ -1,0 +1,91 @@
+@media screen and (max-width:1200px) {
+
+    #classic {
+        width: 16%;
+    }
+}
+
+/* ========================================================= */
+
+@media screen and (max-width:992px) {
+
+    .container-6-logos {
+        column-gap: 240px;
+        row-gap: 50px;
+    }
+
+    .container-6 img {
+        width: 18%;
+    }
+
+    #classic {
+        width: 25%;
+    }
+
+    /* ==================== */
+
+    .staff-boxs {
+        column-gap: 40px;
+        row-gap: 90px;
+    }
+
+    .staff-box {
+        width: 30%;
+    }
+
+    /* ==================== */
+
+    .box-5 {
+        width: 47%;
+    }
+
+}
+
+/* ========================================================= */
+
+@media screen and (max-width:768px) {
+
+
+    .header-text{
+        bottom: 80px;
+        left: 50px;
+        right: 50px;
+    }
+
+    .container-2,
+    .container-4,
+    .container-6-logos {
+        flex-direction: column;
+    }
+
+    .container-1,
+    .container-3-boxs,
+    .container-5,
+    .staff-boxs,
+    .container-8,
+    .container-9-boxs {
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .pic-1,
+    .pic-2,
+    .pic-3,
+    .pic-4,
+    .pic-5,
+    .pic-6,
+    .pic-7,
+    .pic-8,
+    .pic-9,
+    .box-1,
+    .box-5,
+    .container-5-text,
+    .container-1-text,
+    .container-8-text {
+        width: 100%;
+    }
+}
+
+/* ========================================================= */
+
+@media screen and (max-width:576px) {}

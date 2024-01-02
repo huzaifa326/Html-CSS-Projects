@@ -1,0 +1,163 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: rgb(187, 187, 187);
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.nav-content i {
+    display: none;
+    color: black;
+    font-size: 35px;
+}
+
+
+/* <!-- ========================================================= --> */
+
+.main-img {
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/1.jpg) center/cover no-repeat;
+}
+
+/* <!-- ========================================================= --> */
+
+.one-container {
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(180, 67, 72);
+
+}
+
+.boxs {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 180px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 24.3%;
+    padding: 35px 30px;
+    background-color: white;
+}
+
+.img {
+    width: 100px;
+    min-height: 100px;
+}
+
+.one {
+    background: url(images/2.PNG) center/cover no-repeat;
+}
+
+.two {
+    background: url(images/3.PNG) center/cover no-repeat;
+}
+
+.three {
+    background: url(images/4.PNG) center/cover no-repeat;
+}
+
+.four {
+    background: url(images/5.PNG) center/cover no-repeat;
+}
+
+.box h3 {
+    font-weight: bolder;
+    color: rgb(180, 67, 72);
+    margin: 19px 0px;
+}
+
+.box p {
+    line-height: 20px;
+    font-style: italic;
+}
+
+.pp {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 19px;
+}
+
+.pp a {
+    color: white;
+}
+
+/* ============================================================ */
+
+.eight-container {
+    width: 100%;
+    padding: 30px 0px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.eight-content {
+    text-align: center;
+    width: 33%;
+}
+
+.eight-content p {
+    line-height: 30px;
+}
+
+.pp-three p {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.pp-three a {
+    color: rgb(146, 204, 222);
+}
+
+/* ============================================================ */

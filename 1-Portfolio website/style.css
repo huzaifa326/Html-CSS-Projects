@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(65, 65, 65);
+    margin: 50px 0px;
+}
+
+a{
+    color: black;
+}
+/* =========================================================== */
+
+
+nav {
+    width: 100%;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 5px rgba(199, 199, 199, 0.5);
+}
+
+.nav-text {
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text h1 a{
+    color: rgb(180,26,255);
+    font-size: 30px;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 17px;
+}
+
+.nav-items a {
+    padding: 15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.active, li a:hover{
+    color: rgb(180,26,255);
+}
+
+.nav-items i {
+    display: none;
+    font-size: 30px;
+    color: rgb(180,26,255);
+}
+
+/* =========================================================== */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    border-top: 1px solid rgba(168, 168, 168, 0.445);
+    border-bottom: 1px solid rgba(168, 168, 168, 0.445);
+}
+
+.boxs-1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ------------- */
+
+.box {
+    padding: 50px 20px;
+    text-align: center;
+    width: 25%;
+    transition: all .5s ease;
+    position: relative;
+}
+
+.box:hover{
+     color: white;
+    cursor: pointer;
+}
+
+.overly {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    /* background-color: rgb(180,26,255);     */
+    background: linear-gradient(45deg, rgb(241, 106, 235), rgb(180,26,255));
+    transform: scale(0);
+    z-index: -1;
+}
+
+.box:hover .overly{
+    transform: scale(1);
+    transition:  all .5s ;
+}
+
+/* ------------- */
+
+.b-1, .b-2, .b-3, .b-4{
+    border-bottom: 1px solid rgba(168, 168, 168, 0.445);
+}
+
+.b-1, .b-2, .b-3, .b-5, .b-6, .b-7{
+    border-right: 1px solid rgba(168, 168, 168, 0.445);
+}
+
+/* =========================================================== */
+
+
+.box-2 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-left, .box-mid, .box-right{
+    width: 31%;
+}
+
+.p-9{
+    background: url(images/portfolio/p1.jpg);
+}
+.p-10{
+    background: url(images/portfolio/p2.jpg);
+}
+.p-11{
+    background: url(images/portfolio/p3.jpg);
+}
+.p-12{
+    background: url(images/portfolio/p4.jpg);
+}
+.p-13{
+    background: url(images/portfolio/p5.jpg);
+}
+
+.pic-1{
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-11{
+    min-height: 430px;
+}
+
+.p-9, .p-12{
+    margin-bottom: 30px;
+}
+
+/* ------------- */
+
+.hov{
+    overflow: hidden;
+}
+
+.hov:hover .pic-1{
+    cursor: pointer;
+   transform: scale(1.1);
+   transition: all .4s ease;
+}
+
+.overly-2 {
+   width: 100%;
+   position: absolute;
+   inset: 0;
+   height: 100%;
+   transform: scale(0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 23px;
+   background-color: rgba(123, 140, 153, 0.4);    
+}
+
+.pic-1:hover .overly-2{
+   transform: scale(1);
+   transition:  all .5s;
+}
+/* =========================================================== */
+
+.container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    border-top: 1px solid rgba(168, 168, 168, 0.445);
+}
+
+.client-content {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-14{
+    background: url(images/clients/c2.png);
+}
+.p-15{
+    background: url(images/clients/c3.png);
+}
+.p-16{
+    width: 170px;
+    background: url(images/clients/c4.png);
+}
+.p-17{
+    background: url(images/clients/c5.png);
+}
+.p-18{
+    background: url(images/clients/c6.png);
+}
+.p-19{
+    background: url(images/clients/c7.png);
+}
+.p-20{
+    background: url(images/clients/c1.png);
+}
+
+.pic-2 {
+    width: 9%;
+    height: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p-14{
+    width: 13%;
+}
+.p-15{
+    width: 15%;
+}
+.p-16{
+    width: 14%;
+}
+
+/* =========================================================== */
+
+.container-3 {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(233, 233, 233, 0.527);
+}
+
+.container-3 h2 {
+    margin: 0px 0px 40px;
+}
+
+.h-1 {
+    border: none;
+    width: 100%;
+    border: 1px solid rgba(168, 168, 168, 0.445) ;
+}
+
+.container-3-content {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------ */
+
+.contact-form {
+    width: 50%;
+}
+
+input[placeholder="Name*"], input[placeholder="Email*"]{
+    width: 46.5%;
+ }
+ 
+ input[placeholder="Name*"] {
+     margin-right: 25px;
+ }
+
+.subject, textarea, button {
+    width: 100%;
+}
+
+.contact-form input, textarea {
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 25px;
+    resize: none;
+}
+
+textarea{
+    padding: 30px 15px 150px;
+}
+
+input,textarea::placeholder{
+    font-size: 17px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(158, 158, 158);
+}
+
+button {
+    padding: 13px;
+    color: white;
+    font-size: 17px;
+    border: 2px solid transparent;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px rgba(73, 73, 73, 0.3);
+    background-color: rgb(179, 105, 221);
+}
+
+button:hover{
+    background-color: rgb(147,28,219);
+    cursor: pointer;
+}
+
+/* --------------------------- */
+
+.personal-info {
+    width: 40%;
+}
+
+.personal-info h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(77, 77, 77);
+}
+
+.personal-info h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(133, 132, 132);
+    margin: 30px 0px 15px;
+}
+
+.personal-info p {
+    font-size: 17px;
+    color: rgb(158, 158, 158);
+}
+
+.personal-info p:nth-child(2){
+    margin-bottom: 40px;
+}
+/* --------------------------- */
+
+.icons {
+    margin-top: 60px;
+}
+
+.icons i {
+    color: rgb(128, 128, 128);
+    margin-right: 14px;
+}
+
+.icons i:hover{
+    color: rgb(147,28,219);
+    cursor: pointer;
+}
+
+/* =========================================================== */
+
+footer {
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    padding: 50px 0px;
+    text-align: center;
+}

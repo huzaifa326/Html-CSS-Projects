@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+    width: 90%;
+}
+
+p{
+    line-height: 22px;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #1d1b1b;
+    color: rgb(133, 130, 130);
+}
+
+.navbar {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    min-height: 40px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 9px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+.navbar .fa-bars {
+    display: none;
+    font-size: 27px;
+    color: white;
+}
+
+/* =============================Header=================================== */
+
+.header {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(154,205,50);
+    color: rgb(172,253,47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading img {
+    width: 5%;
+    min-height: 60px; 
+    margin-right: 10px; 
+  }
+
+  .heading h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+.content p {
+    margin: 17px 0px;
+    font-size: 17px;
+}
+
+button {
+    padding: 7px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+}
+
+/* =============================Boxes=================================== */
+.container{
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-heading {
+    display: flex;
+    align-items: center;
+}
+
+.box-heading h2 {
+    font-size: 30px;
+}
+
+.box-heading p {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+/* --------------- */
+.boxs {
+    width: 100%;
+    margin: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boox{
+    width: 32%;
+}
+
+.box {
+    background-color: rgb(238,238,238);
+    color: gray;
+    min-height: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+/* --------------- */
+
+.lowertext, .box-uppertext{
+    padding: 0px 10px;
+}
+
+.lowertext h2 {
+    margin: 10px 0px;
+    color: rgb(124, 124, 221);
+}
+
+/* =============================2nd-container=================================== */
+
+.second-Container {
+    width: 100%;
+    padding: 60px 0px;
+    background-color: rgb(218,165,32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-center {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+}
+
+.division{
+    width: 32%;
+}
+
+.container-center p {
+    margin: 15px 0px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head img {
+    margin-left: -7px;
+    margin-right: 7px;
+}
+
+.head h2 {
+    margin-top: 5px;
+}
+/* =============================footer=================================== */
+
+footer {
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+footer .blue {
+    color: rgb(124, 124, 221);
+    margin-bottom: 10px;
+}

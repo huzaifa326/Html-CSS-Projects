@@ -1,0 +1,33 @@
+@media screen and (max-width:1200px) {
+    .card{
+        width: 48%;
+    }
+    .text-section p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navbar i {
+        display: block;
+    }
+
+    .navbar-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .text-section,
+    .cards,
+    .container, hr {
+        width: 80%;
+    }
+
+    .card,
+    .box,
+    .text-section p {
+        width: 100%;
+        text-align: center;
+    }
+}

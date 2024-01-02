@@ -1,0 +1,18 @@
+@media screen and (max-width:992px) {
+    .img-1,
+    .img-2,
+    .img-3,
+    .box {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .box {
+        width: 100%;
+    }
+}

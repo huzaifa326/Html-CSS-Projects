@@ -1,0 +1,41 @@
+@media screen and (max-width:1200px) {
+    .one-container {
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .box {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .center {
+        width: 80%;
+    }
+
+    .one-container {
+        background-position: -67px 0px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .box {
+        width: 100%;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .one-container {
+        background-image: none;
+        min-height: 0;
+        background-color: #FFD21B;
+        padding: 30px 0;
+        
+    }
+}

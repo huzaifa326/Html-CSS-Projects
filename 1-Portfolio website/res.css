@@ -1,0 +1,73 @@
+@media screen and (max-width:1200px) {}
+
+
+
+@media screen and (max-width:992px) {
+    .box {
+        width: 50%;
+    }
+
+    .client-content{
+        row-gap: 30px;
+    }
+    .pic-2{
+        width: 50%;
+    }
+    input[placeholder="Name*"], input[placeholder="Email*"]{
+        width: 100%;
+     }
+
+     .b-2, .b-6{
+        border-right: none;
+     }
+     .b-5, .b-6{
+        border-bottom: 1px solid rgba(168, 168, 168, 0.445);
+     }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .contact-form,
+    .personal-info,
+    .box {
+        width: 100%;
+    }
+
+    .container-3-content {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .nav-items ul{
+        display: none;
+    }
+    .nav-items i{
+        display: block;
+    }
+    
+    .b-1, .b-2, .b-3, .b-4, .b-5, .b-6, .b-7, .b-8{
+        border: 1px solid rgba(168, 168, 168, 0.445);
+    }
+    
+}
+
+
+@media screen and (max-width:576px) {
+
+    .client-content{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .pic-2{
+        width: 100%;
+    }
+
+    .box-2{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .box-left, .box-mid, .box-right{
+        width: 100%;
+    }
+}
